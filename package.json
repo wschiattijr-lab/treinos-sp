@@ -12,8 +12,8 @@
     "electron-builder": "^26.0.12"
   },
   "build": {
-    "appId": "br.treinos.sp",
-    "productName": "Treinos SP",
+    "appId": "br.globo.esporte.treinos",
+    "productName": "Globo Esporte Treinos",
     "asar": true,
     "win": {
       "target": [
