@@ -1,0 +1,22 @@
+<!doctype html><html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Treinos SP</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f4f6;color:#111;font-family:Segoe UI,Arial,sans-serif}
+header{background:#111;color:#fff;padding:28px 34px}.wrap{max-width:1040px;margin:auto}
+h1{margin:0 0 5px;font-size:30px}.sub{opacity:.7}.bar{display:flex;align-items:center;gap:12px;padding:20px 0}
+button{background:#111;color:white;border:0;border-radius:10px;padding:11px 16px;font-weight:700;cursor:pointer}
+button:disabled{opacity:.5}.updated{font-size:13px;color:#666}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:white;border:1px solid #e5e7eb;border-radius:16px;overflow:hidden;box-shadow:0 3px 12px #0000000d}
+.club{font-size:18px;font-weight:800;padding:16px}.thumb{display:block;aspect-ratio:16/9;background:#ddd}.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.title{font-weight:700;line-height:1.35;padding:14px 16px 5px}.date{color:#777;font-size:13px;padding:0 16px 13px}
+.actions{padding:0 16px 17px}.watch{display:inline-block;background:#111;color:white;text-decoration:none;border-radius:9px;padding:10px 13px;font-weight:700;font-size:14px}
+.error{padding:30px 16px;color:#9a3412}.loading{grid-column:1/-1;text-align:center;padding:60px;color:#666}
+.note{font-size:12px;color:#777;margin:22px 0 30px;line-height:1.5}
+@media(max-width:750px){.grid{grid-template-columns:1fr}}
+</style></head><body>
+<header><div class="wrap"><h1>Treinos SP</h1><div class="sub">Último vídeo de treino do futebol masculino profissional</div></div></header>
+<main class="wrap"><div class="bar"><button id="refresh" onclick="load()">↻ Atualizar</button><span class="updated" id="updated">Carregando…</span></div>
+<section id="grid" class="grid"></section>
+<div class="note">Os vídeos são consultados nos canais oficiais e reproduzidos pelo YouTube. O aplicativo não baixa nem redistribui os arquivos. O filtro exclui categorias como feminino, base e futsal.</div></main>
+<script src="renderer.js"></script></body></html>

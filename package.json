@@ -1,0 +1,22 @@
+{
+  "name": "treinos-sp",
+  "version": "1.0.0",
+  "description": "Últimos vídeos de treino do futebol masculino de Corinthians, Palmeiras, São Paulo e Santos.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^38.1.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "br.treinos.sp",
+    "productName": "Treinos SP",
+    "asar": true,
+    "win": {
+      "target": ["portable"]
+    }
+  }
+}
