@@ -1,14 +1,12 @@
-# Treinos SP — Windows EXE
+# Globo Esporte Treinos
 
-Este projeto gera um executável portátil `.exe` para Windows usando Electron.
+Aplicativo Windows para localizar os vídeos mais recentes de treino e preparação do futebol masculino profissional de Corinthians, Palmeiras, São Paulo e Santos.
 
-## Gerar automaticamente no GitHub
+### Alterações desta versão
+- Botão **Copiar link** substitui o botão Assistir.
+- Identidade visual em laranja/amarelo.
+- Nome: **Globo Esporte Treinos**.
+- Símbolo visual genérico inspirado em um globo; não é o logotipo oficial da Globo.
 
-1. Crie um repositório novo no GitHub.
-2. Envie todos os arquivos desta pasta, incluindo `.github/workflows/build.yml`.
-3. Abra a aba **Actions**.
-4. Execute **Build Windows EXE**.
-5. Ao terminar, abra a execução concluída e baixe o artifact **Treinos-SP-Windows**.
-6. Dentro dele estará o `Treinos SP.exe`.
-
-O aplicativo consulta os canais oficiais do YouTube e mostra o vídeo de treino mais recente identificado. Não baixa nem redistribui os vídeos.
+### Observação de marca
+Para usar o logotipo oficial do Globo Esporte/Globo, utilize um arquivo de marca que você tenha autorização para usar. A versão entregue usa um símbolo genérico para evitar incorporar uma marca registrada sem o respectivo arquivo/autorização.

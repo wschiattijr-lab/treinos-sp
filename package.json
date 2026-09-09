@@ -1,7 +1,7 @@
 {
-  "name": "treinos-sp",
+  "name": "globo-esporte-treinos",
   "version": "1.0.0",
-  "description": "Últimos vídeos de treino do futebol masculino de Corinthians, Palmeiras, São Paulo e Santos.",
+  "description": "Últimos vídeos de treino e preparação dos grandes clubes de São Paulo.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -16,7 +16,10 @@
     "productName": "Treinos SP",
     "asar": true,
     "win": {
-      "target": ["portable"]
+      "target": [
+        "portable"
+      ]
     }
-  }
+  },
+  "productName": "Globo Esporte Treinos"
 }
