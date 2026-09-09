@@ -27,5 +27,5 @@ jobs:
       - name: Disponibilizar EXE
         uses: actions/upload-artifact@v4
         with:
-          name: Treinos-SP-Windows
+          name: Globo-Esporte-Treinos-Windows
           path: dist/*.exe
